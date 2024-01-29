@@ -5,9 +5,8 @@ interface Todo {
 type MyReadonly<T> = {
   readonly [K in keyof T]: T[K]
 }
-// const article: Readonly<Todo> = {
 const article: MyReadonly<Todo> = {
-  title: '123',
-  description: '444'
+  title: 'title',
+  description: 'description'
 }
-// article.title = '123'
+console.log(article);

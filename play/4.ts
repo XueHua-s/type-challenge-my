@@ -11,6 +11,6 @@ type Mypick<T, P extends keyof T> = {
 }
 type MyToco = Mypick<Todo, 'title' | 'desc'>
 const myTodo: MyToco = {
-  title: 123,
-  desc: 1
+  title: '123',
+  desc: '123'
 }

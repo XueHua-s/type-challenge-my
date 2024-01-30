@@ -1,5 +1,5 @@
 "use strict";
 const myTodo = {
-    title: 123,
-    desc: 1
+    title: '123',
+    desc: '123'
 };

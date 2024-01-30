@@ -9,3 +9,4 @@ type First<T extends any[]> = T extends [] ? never : T[0]
 type First2<T extends any[]> = T extends [infer F, ...infer R] ? F : never
 type head1 = First<arr1>; // expected to be 'a'
 type head2 = First2<arr2>; // expected to be 3
+export {}

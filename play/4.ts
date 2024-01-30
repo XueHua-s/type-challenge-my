@@ -14,3 +14,4 @@ const myTodo: MyToco = {
   title: '123',
   desc: '123'
 }
+export {}

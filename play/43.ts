@@ -5,3 +5,4 @@ type MyExclude<T, P> = T extends P ? never : T
 // 不然就子集类型本身
 type Result = MyExclude<'a' | 'b' | 'c', 'a' | 'c'>; // 'b' | 'c'
 const result: Result = 'b'
+export {}

@@ -2,3 +2,4 @@
 type MyAwaited<T> = T extends Promise<infer R> ? R : T
 type ExampleType = Promise<string>;
 type Result = MyAwaited<ExampleType>; // string
+export {}

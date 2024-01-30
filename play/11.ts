@@ -13,3 +13,4 @@ type result = TupleToObject<typeof tuple>;
 const obj: result = {
   "v": "v"
 }
+export {}

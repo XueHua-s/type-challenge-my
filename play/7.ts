@@ -10,3 +10,4 @@ const article: MyReadonly<TodoType> = {
   description: 'description'
 }
 console.log(article);
+export {}

@@ -24,3 +24,4 @@ const ab: AB2 = {
   title: '你好',
   description: ''
 }
+export {}

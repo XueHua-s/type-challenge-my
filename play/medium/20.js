@@ -4,5 +4,6 @@ const promise2 = 42;
 const promise3 = new Promise((resolve, reject) => {
     setTimeout(resolve, 100, 'foo');
 });
+const PromiseAll = (list) => Promise.all(list);
 // expected to be `Promise<[number, 42, string]>`
 const p = PromiseAll([promise1, promise2, promise3]);

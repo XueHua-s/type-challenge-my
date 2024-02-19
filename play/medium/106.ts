@@ -17,4 +17,6 @@ const eat = <T extends string>(food: T): EatOver<T> => {
 }
 const overFood = eat('火锅')
 let b = 1;
-
+type Ref = <T>(value: T) => {
+  value: T
+};
